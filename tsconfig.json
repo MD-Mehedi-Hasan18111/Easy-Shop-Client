@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "target": "ESNext",
+    "forceConsistentCasingInFileNames": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "sourceMap": false,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": "./",
+    "rootDir": "./",
+    "paths": {
+      "@api": ["src/global/api/index.ts"],
+      "@api/*": ["src/global/api/*"],
+      "@components/*": ["src/components/*"],
+      "@constants/*": ["src/global/constants/*"],
+      "@constants": ["src/global/constants/index.ts"],
+      "@config": ["src/global/config/index.ts"],
+      "@config/*": ["src/global/config/*"],
+      "@interfaces": ["src/interfaces/index.ts"],
+      "@interfaces/*": ["src/interfaces/*"],
+      "@type": ["src/types/index.ts"],
+      "@type/*": ["src/types/*"],
+      "@utils": ["src/global/utils/index.ts"],
+      "@utils/*": ["src/global/utils/*"],
+      "@global/*": ["src/global/*"],
+      "@images/*": ["src/global/assets/images/*"],
+      "@icons/*": ["src/global/assets/icons/*"],
+      "@fonts/*": ["src/global/assets/fonts/*"],
+      "@assets/*": ["src/global/assets/*"],
+      "@src/*": ["src/*"]
+    },
+    "typeRoots": ["./node_modules/@types"],
+    "types": [],
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "src/**/**/**/**/**/**/**/**/*.ts",
+    "src/**/**/**/**/**/**/**/*.tsx",
+    "src/**/**/**/**/**/**/**/*.css",
+    ".next/types/**/*.ts",
+  ],
+  "exclude": ["node_modules", ".next"]
+}

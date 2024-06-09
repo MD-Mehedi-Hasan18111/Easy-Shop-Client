@@ -1,0 +1,22 @@
+# ES Lint
+.eslintrc.js
+
+*.config.js
+*.config.ts
+*.config.cjs
+
+# Node
+node_modules
+
+# Git
+.gitignore
+
+# CICD
+.gitlab-ci.yml
+
+# Next Project
+next-env.d.ts
+public
+build
+dist
+out

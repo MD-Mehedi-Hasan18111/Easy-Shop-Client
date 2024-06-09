@@ -1,0 +1,3 @@
+echo 'Checking 🏗️👷 Styling, Linting, Format, Types, Type check, testing and building your project before committing'
+
+npx lint-staged

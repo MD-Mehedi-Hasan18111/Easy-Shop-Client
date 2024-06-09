@@ -1,0 +1,4 @@
+/* stylelint-disable media-feature-range-notation */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';

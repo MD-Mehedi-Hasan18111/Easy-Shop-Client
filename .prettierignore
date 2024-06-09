@@ -1,0 +1,20 @@
+# Node
+node_modules
+
+# Git
+.gitignore
+
+# CICD
+.gitlab-ci.yml
+
+# Next Project
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# Public Folder
+public
+
+# Next Build
+build
+dist
+out
